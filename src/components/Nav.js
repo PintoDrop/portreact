@@ -28,7 +28,7 @@ function Nav(props) {
        </li>
      </ul>
    </div>
- </nav>;
+ </nav>
  );
 }
 
