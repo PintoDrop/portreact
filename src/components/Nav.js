@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 
 function Nav(props) {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light flex-row">
       <div class="collapse navbar-collapse" id="navbarNav">
         <div class="navbar-header">
           <span class="navbar-toggler-icon"></span>
@@ -15,6 +15,7 @@ function Nav(props) {
               About Me
             </NavLink>
           </li>
+          <br></br>
           <li class="nav-item">
             <NavLink to="/project">Portfolio</NavLink>
           </li>

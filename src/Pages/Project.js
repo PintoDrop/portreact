@@ -70,7 +70,7 @@ function Project() {
 
   return (
     <div>
-      <div className="card">
+      <div className="card project">
         {works.map((work, idx) => (
           <Project work={work}
           key={"work" + idx } />

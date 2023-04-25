@@ -1,12 +1,18 @@
 import React from "react";
 
 function Resume() {
-  return 
-  
-  
+  return (
+  <section className="card resume">
+
        <p>
        Resume
        </p>
+
+  </section>
+
+
+  )
+  
    
 
 }

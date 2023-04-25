@@ -6,7 +6,7 @@ function Header(props) {
     <header className="flex-row text-center">
       <h1>Welcome to Michael's Portfolio!</h1>
       <img src={headerImg} alt="coding background"></img>
-      {props.children}
+      {/* {props.children} */}
     </header>
   );
 }

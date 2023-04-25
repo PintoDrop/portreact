@@ -1,6 +1,7 @@
 import React from "react";
 import self from "../../src/images/image.pro.jpg"
 
+
 function Aboutme() {
   return (
     <section className="card aboutme">

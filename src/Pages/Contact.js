@@ -40,7 +40,7 @@ function Contact() {
 
   return (
     <div>
-      <form className="form">
+      <form className="form contact">
         <input value={message} 
         name="message"
         onChange={handleInputChange}
