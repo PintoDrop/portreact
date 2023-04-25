@@ -3,9 +3,10 @@ import {NavLink} from "react-router-dom";
 
 function Nav(props) {
   return (
- <nav class="navbar navbar-inverse navbar-fixed-top">
+ <nav class="navbar navbar-light bg-light">
    <div class="container-fluid">
      <div class="navbar-header">
+      
        {/* <a class="navbar-brand" href="#">
          Michael's Portfolio
        </a> */}
@@ -21,7 +22,7 @@ function Nav(props) {
           <NavLink to="/project">Portfolio</NavLink>
        </li>
        <li>
-          <NavLink to="/contact">Contact Info</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
        </li>
        <li>
           <NavLink to="/resume">Resume</NavLink>
@@ -29,6 +30,9 @@ function Nav(props) {
      </ul>
    </div>
  </nav>
+
+ 
+ 
  );
 }
 

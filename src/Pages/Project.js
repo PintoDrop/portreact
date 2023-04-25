@@ -5,7 +5,7 @@ function Project() {
     <section className="card">
       <div className="text-center">
         <p>
-          Project Page
+          Projects Page
         </p>
       </div>
     </section>
