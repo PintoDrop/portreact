@@ -92,6 +92,7 @@ how to sized images
 how to fix nav bar
 how to make footer appear correctly
 how can I make my projects appear?
+link for resume? resume info
  -->
 
 
