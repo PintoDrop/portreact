@@ -91,6 +91,7 @@ GIVEN a single-page application portfolio for a web developer
 how to sized images
 how to fix nav bar
 how to make footer appear correctly
+how can I make my projects appear?
  -->
 
 

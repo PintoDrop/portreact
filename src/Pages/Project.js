@@ -65,15 +65,16 @@ function Project() {
           key={"work" + idx } />
         ))}
 
+        
+    <div className="text-center">
+      <p>
+        Projects Page
+      </p>
+    </div>
+
     </div>
     </div>
   );
 }
 
 export default Project;
-
-{/* <div className="text-center">
-  <p>
-    Projects Page
-  </p> */}
-{/* </div> */}

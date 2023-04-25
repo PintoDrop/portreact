@@ -1,9 +1,14 @@
 import React from "react";
 
 function Resume() {
-  return(
-    <nav class="navbar navbar-inverse navbar-fixed-top"></nav>
-  );
+  return 
+  
+  
+       <p>
+       Resume
+       </p>
+   
+
 }
 
 export default Resume;

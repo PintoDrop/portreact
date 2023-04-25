@@ -10,6 +10,11 @@ function Footer() {
       name: "LinkedIn",
       link: "https://www.linkedin.com/in/michael-b-4612732b/",
     },
+
+    {
+      name: "Twitter",
+      link: "https://twitter.com/MichaelJBenzer",
+    },
   ];
 
   return (
