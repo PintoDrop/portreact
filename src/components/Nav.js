@@ -15,7 +15,7 @@ function Nav(props) {
          <a href="#">Home</a>
        </li> */}
        <li>
-        <NavLink to="/aboutme">About Me</NavLink>
+        <NavLink to="/">About Me</NavLink>
        </li>
        <li>
           <NavLink to="/project">Portfolio</NavLink>
