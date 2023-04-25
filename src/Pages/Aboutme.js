@@ -3,7 +3,7 @@ import self from "../../src/images/image.pro.jpg"
 
 function Aboutme() {
   return (
-    <section className="card">
+    <section className="card aboutme">
       <div className="text-center">
         <p>
           My name is Michael and I started getting into coding this past year. I
