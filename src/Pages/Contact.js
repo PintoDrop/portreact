@@ -21,7 +21,11 @@ function Contact() {
 
     if (inputType === 'email') {
       setEmail(inputValue);
-    }  
+    } else if (inputType === 'name'){
+      setName(inputValue);
+    } else {
+      setMessage(inputValue);
+    }
   };
 
   const handleFormSubmit = (e) => {
@@ -59,10 +63,10 @@ function Contact() {
       </form>
       {/* {errorMessage && 
         <div>
-          <p className="error-text">
+          <p className="error-text"> */}
             {errorMessage}
-          </p>
-      } */}
+          {/* </p> */}
+      {/* } */}
       
     </div>
   )
