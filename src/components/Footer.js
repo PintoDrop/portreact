@@ -18,14 +18,14 @@ function Footer() {
   ];
 
   return (
-    <footer className="text-center">
+    <footer className="text-center ">
       <p>Footer</p>
-      
-      {/* {icons.map((icon) => (
-        <a href={icon.link} key={icon.name} target="_blank">
-          <i className={icon.name}></i>
+      {/* add css to fix up */}
+      {icons.map((icon) => (
+        <a className="link-item" href={icon.link} key={icon.name} target="_blank">
+          <i className={icon.name}>{icon.name}</i>
         </a>
-      ))} */}
+      ))}
       
     </footer>
   );

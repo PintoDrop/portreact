@@ -94,6 +94,11 @@ Header {
   background-color: #23F0C7;
   color: #EF767A;
   font-size: 20px;
+  display: flex;
+}
+
+/* links for footer */
+.link-item {
 }
 
 

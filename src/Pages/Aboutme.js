@@ -1,5 +1,5 @@
 import React from "react";
-import self from "../../src/images/image.pro.jpg"
+// import self from "../../src/images/image.pro.jpg"
 
 
 function Aboutme() {
@@ -14,7 +14,7 @@ function Aboutme() {
           the UCI course.
         </p>
         <img
-          src={self}
+          src="./images/image.pro.jpg"
           alt="Michael Selfie" 
           // style="width:350px;height:185px"
         ></img>

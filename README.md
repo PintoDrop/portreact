@@ -88,9 +88,11 @@ GIVEN a single-page application portfolio for a web developer
 
 <!-- 
 
-how to fix nav bar
+how to fix nav bar- done
 how to sized images
-how to make footer appear correctly
+
+how to make footer appear correctly - done (needs style)
+
 how can I make my projects appear? - not loading 
 
 link for resume? resume info

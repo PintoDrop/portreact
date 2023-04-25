@@ -1,13 +1,8 @@
 import React, { useState } from "react";
-import weather from "../../src/images/weathertrack.JPG";
-import auto from "../../src/images/autoselfhelp.JPG";
-import quiz from "../../src/images/codequiz.JPG";
-import jate from "../../src/images/jate.JPG";
-import hotels from "../../src/images/hotelsondemand.JPG";
-import password from "../../src/images/passwordGen.JPG";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
 function Project() {
-
   const [works] = useState([
     {
       name: "Weather Tracker",
@@ -16,7 +11,7 @@ function Project() {
       link: "https://pintodrop.github.io/weather-/",
       github: "https://github.com/PintoDrop/weather-",
 
-      image: <img src={weather} alt="screen shot of weather tracker"></img>,
+      image: "./images/weathertrack.JPG",
       // {props.children}
     },
     {
@@ -26,7 +21,7 @@ function Project() {
       link: "https://agile-ocean-74686.herokuapp.com/",
       github: "https://github.com/PintoDrop/autoselfhelp",
 
-      image: <img src={auto} alt="screen shot of auto self help"></img>,
+      image: "./images/autoselfhelp.JPG",
     },
     {
       name: "Coding Quiz",
@@ -35,7 +30,7 @@ function Project() {
       link: "https://pintodrop.github.io/codequiz/",
       github: "https://github.com/PintoDrop/codequiz",
 
-      image: <img src={quiz} alt="screen shot of coding quiz"></img>,
+      image: "./images/codequiz.JPG",
     },
     {
       name: "JATE",
@@ -44,7 +39,7 @@ function Project() {
       link: "https://hidden-hamlet-64843.herokuapp.com/",
       github: "https://github.com/PintoDrop/textedit",
 
-      image: <img src={jate} alt="screen shot of code text editor"></img>,
+      image: "./images/jate.JPG",
     },
     {
       name: "Hotels On Demand",
@@ -53,7 +48,7 @@ function Project() {
       link: "https://thandyn.github.io/Hotels-on-Demand/",
       github: "https://github.com/thandyn/Hotels-on-Demand",
 
-      image: <img src={hotels} alt="screen shot of hotels on demand"></img>,
+      image: "./images/hotelsondemand.JPG",
     },
 
     {
@@ -63,29 +58,38 @@ function Project() {
       link: "https://pintodrop.github.io/Challenge-3/",
       github: "https://github.com/PintoDrop/Challenge-3",
 
-      image: <img src={password} alt="screen shot of password generator"></img>,
+      image: "./images/passwordGen.JPG",
     },
   ]);
 
-
   return (
     <div>
-      <div className="card project">
+      <div className="cards project flex-row">
         {works.map((work, idx) => (
-          <Project work={work}
-          key={"work" + idx } />
+          <Card className="myWork" style={{ width: "18rem" }}>
+            <Card.Img variant="top" src={work.image} />
+            <Card.Body>
+              <Card.Title>{work.name}</Card.Title>
+              <Card.Text>{work.description}</Card.Text>
+              <a href={work.link}>
+                <Button variant="primary">See my project!</Button>
+              </a>
+              <a href={work.github}>
+                <Button variant="primary">See my code!</Button>
+              </a>
+            </Card.Body>
+          </Card>
         ))}
 
-        
+        {/*         
     <div className="text-center">
       <p>
         Projects Page
       </p>
-    </div>
-
-    </div>
+    </div> */}
+      </div>
     </div>
   );
-};
+}
 
 export default Project;
