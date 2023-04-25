@@ -87,9 +87,9 @@ GIVEN a single-page application portfolio for a web developer
 
 
 <!-- 
-how to preview what I made thus far?
+
 file lay out
-npx react starting?
+having header, footer & nav bar appearing
  -->
 
 
