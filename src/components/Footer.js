@@ -26,6 +26,7 @@ function Footer() {
           <i className={icon.name}></i>
         </a>
       ))} */}
+      
     </footer>
   );
 }

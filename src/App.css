@@ -77,6 +77,26 @@ Header {
   font-size: 20px;
 }
 
+.contact {
+  background-color: #23F0C7;
+  color: #EF767A;
+  font-size: 20px;
+}
+
+.resume {
+  background-color: #23F0C7;
+  color: #EF767A;
+  font-size: 20px;
+}
+
+.project {
+  background-color: #23F0C7;
+  color: #EF767A;
+  font-size: 20px;
+}
+
+
+
 /* 
 color scheme:
 Yellow: #FFE347
