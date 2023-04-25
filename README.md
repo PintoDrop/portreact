@@ -88,9 +88,9 @@ GIVEN a single-page application portfolio for a web developer
 
 <!-- 
 
-how to sizde images
+how to sized images
 how to fix nav bar
-how to make footer appear correclty
+how to make footer appear correctly
  -->
 
 

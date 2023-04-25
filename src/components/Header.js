@@ -1,5 +1,5 @@
 import React from "react";
-import headerImg from "../../src/images/headerImg.jpg"
+import headerImg from "../../src/images/headerImg.jpg";
 
 function Header(props) {
   return (
