@@ -4,6 +4,7 @@ import auto from "../../src/images/autoselfhelp.JPG";
 import quiz from "../../src/images/codequiz.JPG";
 import jate from "../../src/images/jate.JPG";
 import hotels from "../../src/images/hotelsondemand.JPG";
+import password from "../../src/images/passwordGen.JPG";
 
 function Project() {
 
@@ -53,6 +54,16 @@ function Project() {
       github: "https://github.com/thandyn/Hotels-on-Demand",
 
       image: <img src={hotels} alt="screen shot of hotels on demand"></img>,
+    },
+
+    {
+      name: "Password Generator",
+      description:
+        "This application allows the user to randomly generate a password. The user is given prompts for the desired criteria and a password is created in the box below.",
+      link: "https://pintodrop.github.io/Challenge-3/",
+      github: "https://github.com/PintoDrop/Challenge-3",
+
+      image: <img src={password} alt="screen shot of password generator"></img>,
     },
   ]);
 
