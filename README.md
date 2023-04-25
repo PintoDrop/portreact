@@ -88,8 +88,9 @@ GIVEN a single-page application portfolio for a web developer
 
 <!-- 
 
-file lay out
-having header, footer & nav bar appearing
+how to sizde images
+how to fix nav bar
+how to make footer appear correclty
  -->
 
 

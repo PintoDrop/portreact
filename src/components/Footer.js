@@ -15,8 +15,11 @@ function Footer() {
   return (
     <footer className="text-center">
       <p>Footer</p>
+      
       {/* {icons.map((icon) => (
-        <a href={icon.link} key={icon.name}></a>
+        <a href={icon.link} key={icon.name} target="_blank">
+          <i className={icon.name}></i>
+        </a>
       ))} */}
     </footer>
   );
