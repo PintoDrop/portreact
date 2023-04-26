@@ -64,7 +64,7 @@ function Project() {
 
   return (
     <div>
-      <div className="cards project flex-row">
+      <div className="cards project flex col-auto mb-3 ">
         {works.map((work, idx) => (
           <Card className="myWork" style={{ width: "18rem" }}>
             <Card.Img variant="top" className="workImg" src={work.image} />

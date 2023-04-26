@@ -21,7 +21,7 @@ img {
 }
 
 .selfie {
-  width: 600px;
+  width: 30%;
   height: 450px;
   float:center;
 }
@@ -30,6 +30,7 @@ img {
   margin:auto;
    width: 400px;
   height: 450px;
+  
 }
 
 .projectBtn {
@@ -107,6 +108,8 @@ Header {
   color: #ef767a;
   font-size: 20px;
   display: flex;
+    padding: '3rem';
+  
 }
 
 /* links for footer */
