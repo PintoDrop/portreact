@@ -75,12 +75,12 @@ function Project() {
               <Card.Text className="projectDesc">{work.description}</Card.Text>
               <a href={work.link}>
                 <Button variant="warning text-center" className="projectBtn">
-                  See my project!
+                  View My Project
                 </Button>
               </a>
               <a href={work.github}>
                 <Button variant="info text-center" className="projectBtn">
-                  See my code!
+                  View My Code
                 </Button>
               </a>
             </Card.Body>

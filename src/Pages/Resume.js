@@ -3,12 +3,10 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 
-
 function Resume() {
   return (
     <div className="cards resume flex col-auto mb-3 ">
       <Card style={{ width: "18rem" }} className="resume">
-        {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
         <Card.Body>
           <Card.Title><h2>Proficiencies</h2></Card.Title>
           <Card.Text className="resume1">
