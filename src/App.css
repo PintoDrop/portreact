@@ -38,13 +38,13 @@
 } */
 
 .headerImg {
-  width:350px;
-  height:185px
+  width: 350px;
+  height: 185px;
 }
 
 .self {
-  width:350px;
-  height:185px
+  width: 350px;
+  height: 185px;
 }
 
 .banner {
@@ -69,64 +69,68 @@ img {
 } */
 
 Header {
-  font-family: 'Courier New', Courier, monospace;
-  color: #EF767A;
-  background-color: #6457A6;
+  font-family: "Courier New", Courier, monospace;
+  color: #ef767a;
+  background-color: #6457a6;
   font-weight: 100;
 }
 
 .aboutme {
-  background-color: #23F0C7;
-  color: #EF767A;
+  background-color: #23f0c7;
+  color: #ef767a;
   font-size: 20px;
 }
 
 .contact {
-  background-color: #23F0C7;
-  color: #EF767A;
+  background-color: #23f0c7;
+  color: #ef767a;
   font-size: 20px;
 }
 
 .resume {
-  background-color: #23F0C7;
-  color: #EF767A;
+  background-color: #23f0c7;
+  color: #ef767a;
   font-size: 20px;
   text-align: center;
 }
 
 .project {
-  background-color: #23F0C7;
-  color: #EF767A;
+  background-color: #23f0c7;
+  color: #ef767a;
   font-size: 20px;
   display: flex;
 }
 
 /* links for footer */
 .link-item {
-  background-color: #23F0C7;
-   color: #EF767A;
+  color: #ef767a;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: 200
 }
 
-
+footer {
+  background-color: #23f0c7;
+}
 .myWork {
-   background-color: #23F0C7;
-   color: #EF767A;
+  background-color: #23f0c7;
+  color: #ef767a;
 }
 
 h2 {
-  color: #6457A6
+  color: #6457a6;
 }
 
 .Navigation {
-  background-color: #23F0C7;
+  background-color: #23f0c7;
 }
 
 .NaviName {
   /* background-color: #EF767A; */
-  color: #EF767A;
+  color: #ef767a;
 }
-
-
 
 /* 
 color scheme:

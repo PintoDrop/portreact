@@ -19,7 +19,7 @@ function Footer() {
 
   return (
     <footer className="text-center ">
-      <p>Footer</p>
+ 
       {/* add css to fix up */}
       {icons.map((icon) => (
         <a className="link-item" href={icon.link} key={icon.name} target="_blank">
