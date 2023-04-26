@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portreact/static/css/main.7b9627da.css",
+    "main.js": "/portreact/static/js/main.9c5ac13b.js",
+    "index.html": "/portreact/index.html",
+    "main.7b9627da.css.map": "/portreact/static/css/main.7b9627da.css.map",
+    "main.9c5ac13b.js.map": "/portreact/static/js/main.9c5ac13b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b9627da.css",
+    "static/js/main.9c5ac13b.js"
+  ]
+}
