@@ -1,41 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 .headerImg {
   width: 350px;
@@ -59,9 +21,30 @@ img {
 }
 
 .selfie {
-  width: 400px;
+  width: 600px;
   height: 450px;
   float:center;
+}
+
+.workImg {
+  margin:auto;
+   width: 400px;
+  height: 450px;
+}
+
+.projectBtn {
+  /* float:center */
+  display:flex;
+  text-align: center;
+  margin:auto;
+}
+
+.projectName{
+  text-align: center;
+}
+
+.projectDesc {
+  text-align: center;
 }
 
 /* .self {
@@ -146,6 +129,7 @@ footer {
 .myWork {
   background-color: #23f0c7;
   color: #ef767a;
+  text-align: center;
 }
 
 h2 {
@@ -164,6 +148,8 @@ h2 {
   /* background-color: #EF767A; */
   color: #ef767a;
 }
+
+
 
 /* 
 color scheme:

@@ -67,15 +67,21 @@ function Project() {
       <div className="cards project flex-row">
         {works.map((work, idx) => (
           <Card className="myWork" style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={work.image} />
+            <Card.Img variant="top" className="workImg" src={work.image} />
             <Card.Body>
-              <Card.Title><h2>{work.name}</h2></Card.Title>
-              <Card.Text>{work.description}</Card.Text>
+              <Card.Title className="projectName">
+                <h2>{work.name}</h2>
+              </Card.Title>
+              <Card.Text className="projectDesc">{work.description}</Card.Text>
               <a href={work.link}>
-                <Button variant="warning">See my project!</Button>
+                <Button variant="warning text-center" className="projectBtn">
+                  See my project!
+                </Button>
               </a>
               <a href={work.github}>
-                <Button variant="info">See my code!</Button>
+                <Button variant="info text-center" className="projectBtn">
+                  See my code!
+                </Button>
               </a>
             </Card.Body>
           </Card>
