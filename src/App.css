@@ -47,10 +47,20 @@
   height:185px
 }
 
+.banner {
+  width: 2000px;
+  height: 124px;
+}
+
 img {
   border-radius: 8px;
   width: 600px;
-  height: 200px;
+  height: 400px;
+}
+
+.selfie {
+  width: 400px;
+  height: 450px;
 }
 
 /* .self {
@@ -64,12 +74,6 @@ Header {
   background-color: #6457A6;
   font-weight: 100;
 }
-
-
-/* body {
-  background-color: #23F0C7;
-  color: #EF767A;
-} */
 
 .aboutme {
   background-color: #23F0C7;
@@ -99,6 +103,8 @@ Header {
 
 /* links for footer */
 .link-item {
+  background-color: #23F0C7;
+   color: #EF767A;
 }
 
 
@@ -107,11 +113,18 @@ Header {
    color: #EF767A;
 }
 
-.h1 {
-
+h2 {
   color: #6457A6
 }
 
+.Navigation {
+  background-color: #23F0C7;
+}
+
+.NaviName {
+  /* background-color: #EF767A; */
+  color: #EF767A;
+}
 
 
 

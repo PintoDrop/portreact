@@ -13,7 +13,7 @@ function Aboutme() {
           have several projects I was able to create thanks to the teachings of
           the UCI course.
         </p>
-        <img
+        <img className="selfie"
           src="./images/image.pro.jpg"
           alt="Michael Selfie" 
           // style="width:350px;height:185px"

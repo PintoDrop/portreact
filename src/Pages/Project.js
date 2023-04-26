@@ -69,7 +69,7 @@ function Project() {
           <Card className="myWork" style={{ width: "18rem" }}>
             <Card.Img variant="top" src={work.image} />
             <Card.Body>
-              <Card.Title><h1>{work.name}</h1></Card.Title>
+              <Card.Title><h2>{work.name}</h2></Card.Title>
               <Card.Text>{work.description}</Card.Text>
               <a href={work.link}>
                 <Button variant="warning">See my project!</Button>
@@ -80,13 +80,6 @@ function Project() {
             </Card.Body>
           </Card>
         ))}
-
-        {/*         
-    <div className="text-center">
-      <p>
-        Projects Page
-      </p>
-    </div> */}
       </div>
     </div>
   );
