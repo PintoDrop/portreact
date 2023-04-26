@@ -82,7 +82,7 @@ GIVEN a single-page application portfolio for a web developer
 
 ## Deployed-Website
 
-[Deployed Website](https://pintodrop.github.io/portreact/)
+[Deployed Website](https://michaelportfolio.herokuapp.com/)
 
 ## Screen-Shots
 
@@ -103,5 +103,5 @@ contact form needs work
 about me needs to be homepage - issue started after trying to deploy on github and now npm start brings me to /portreact that
 just shows header, nav and footer
 
-deploy heroku
+deploy heroku -done
  -->

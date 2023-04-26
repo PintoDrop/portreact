@@ -172,6 +172,12 @@ h2 {
   /* font-family: "Courier New", Courier, monospace; */
 }
 
+.error {
+  color: #7D7ABC;
+  font-size: 25px;
+  font-family: monospace;
+}
+
 /* 
 color scheme:
 Yellow: #FFE347
