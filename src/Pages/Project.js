@@ -69,13 +69,13 @@ function Project() {
           <Card className="myWork" style={{ width: "18rem" }}>
             <Card.Img variant="top" src={work.image} />
             <Card.Body>
-              <Card.Title>{work.name}</Card.Title>
+              <Card.Title><h1>{work.name}</h1></Card.Title>
               <Card.Text>{work.description}</Card.Text>
               <a href={work.link}>
-                <Button variant="primary">See my project!</Button>
+                <Button variant="warning">See my project!</Button>
               </a>
               <a href={work.github}>
-                <Button variant="primary">See my code!</Button>
+                <Button variant="info">See my code!</Button>
               </a>
             </Card.Body>
           </Card>
