@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import { validateEmail } from "../utils/helper";
+// import Form from 'react-bootstrap/Form';
+// import Button from "react-bootstrap/Button";
 
 function Contact() {
   // const [formState, setFormState] = useState({
@@ -38,6 +40,8 @@ function Contact() {
   };
   setEmail('');
 
+
+
   return (
     <div>
       <form className="form contact">
@@ -67,11 +71,37 @@ function Contact() {
             {errorMessage}
           {/* </p> */}
       {/* } */}
-      
     </div>
-  )
+  );
 }
 
 
-
 export default Contact;
+
+
+
+
+    // <Form>
+    //   <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+    //     <Form.Label>Email address</Form.Label>
+    //     <Form.Control type="email" placeholder="What's your emai?" />
+    //   </Form.Group>
+    //   <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+    //     <Form.Label>Name</Form.Label>
+    //     <Form.Control type="name" placeholder="What's your name?" />
+    //   </Form.Group>
+
+    //   <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+    //     <Form.Label>What's your message?</Form.Label>
+    //     <Form.Control
+    //       as="textarea"
+    //       placeholder="put your message here"
+    //       rows={3}
+    //     />
+    //   </Form.Group>
+    //   {/* <a href=> */}
+    //     <Button variant="warning text-center" className="contactBtn">
+    //       Send your message
+    //     </Button>
+    //   {/* </a> */}
+    // </Form>
