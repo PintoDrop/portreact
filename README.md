@@ -83,7 +83,11 @@ GIVEN a single-page application portfolio for a web developer
 
 ## Screen-Shots
 
-![Home Page Screenshot]()
+![Home Page Screenshot](./public/images/aboutMe.JPG)
+
+![Projects page](./public/images/projectPage.JPG)
+
+![Resume page](./public/images/resumePage.JPG)
 
 
 <!-- 
