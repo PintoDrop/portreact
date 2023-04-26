@@ -61,6 +61,7 @@ Header {
 .aboutme {
   background-color: #23f0c7;
   color: #ef767a;
+  /* font-family: "Courier New", Courier, monospace; */
   font-size: 25px;
   text-align: center;
   margin: auto;
@@ -70,6 +71,7 @@ Header {
 .aboutmecard {
   background-color: #23f0c7;
   color: #ef767a;
+  /* font-family: "Courier New", Courier, monospace; */
   font-size: 18px;
   text-align: center;
   margin: auto;
@@ -80,6 +82,7 @@ Header {
 .aboutmecard2 {
   background-color: #23f0c7;
   color: #6457a6;
+  /* font-family: "Courier New", Courier, monospace; */
   font-size: 18px;
   text-align: center;
   margin: auto;
@@ -90,12 +93,14 @@ Header {
 .contact {
   background-color: #23f0c7;
   color: #ef767a;
+  /* font-family: "Courier New", Courier, monospace; */
   font-size: 20px;
 }
 
 .resume {
   background-color: #23f0c7;
   color: #ef767a;
+  /* font-family: "Courier New", Courier, monospace; */
   font-size: 15px;
   text-align: center;
   /* float:center; */
@@ -111,6 +116,7 @@ Header {
 .project {
   background-color: #23f0c7;
   color: #ef767a;
+  /* font-family: "Courier New", Courier, monospace; */
   font-size: 20px;
   display: flex;
   padding: "3rem";
@@ -136,11 +142,13 @@ Header {
 
 footer {
   background-color: #23f0c7;
+  font-family: "Courier New", Courier, monospace;
 }
 .myWork {
   background-color: #23f0c7;
   color: #ef767a;
   text-align: center;
+  /* font-family: "Courier New", Courier, monospace; */
 }
 
 h2 {
@@ -165,6 +173,7 @@ h2 {
   color: #ef767a;
   font-size: 20px;
   background-color: #23f0c7;
+  /* font-family: "Courier New", Courier, monospace; */
 }
 
 /* 
