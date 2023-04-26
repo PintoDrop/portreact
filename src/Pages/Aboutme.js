@@ -9,7 +9,7 @@ function Aboutme() {
  
     
     <section className="card aboutme">
-      <card className="text-center ">
+      <div className="text-center ">
         <h2>About Me</h2>
         <p>
           I began coding in 2022 and have been able to attend a UCI bootcamp
@@ -56,7 +56,7 @@ function Aboutme() {
           alt="Michael Selfie"
           ></img>
         {/* {props.children} */}
-      </card>
+      </div>
     </section>
         
   );

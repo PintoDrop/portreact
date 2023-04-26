@@ -49,7 +49,7 @@ GIVEN a single-page application portfolio for a web developer
 **WHEN I click on a navigation title**
 *THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted*
 
-<!-- Need -->
+<!-- Need? npm start goes to /portreact -->
 **WHEN I load the portfolio the first time**
 *THEN the About Me title and section are selected by default* 
 
@@ -104,10 +104,4 @@ about me needs to be homepage - issue started after trying to deploy on github a
 just shows header, nav and footer
 
 deploy heroku
-
-new code: 
-Home.js
-Content.js
-function and return code in app.js
-
  -->

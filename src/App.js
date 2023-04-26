@@ -15,8 +15,6 @@ function App() {
   return (
 
     <div>
-
-   
     <Router>
       <Header />
       <Nav />
@@ -29,8 +27,6 @@ function App() {
       </Routes>
       <Footer />
     </Router>
-    
-    
     </div>
   );
 }
