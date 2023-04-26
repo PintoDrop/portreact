@@ -89,18 +89,24 @@ GIVEN a single-page application portfolio for a web developer
 
 ![Resume page](./src/images/resumePage.JPG)
 
+![Contact Page](./src/images/contactimg.JPG)
+
 
 <!-- 
 
+after deployed my images stopped working for local - fixed paths
 making images on project cards different sizes
 getting rows of 3 for cards that are in columns
 
-Contact form not working
-after deployed my images stopped working for local - fixed paths
+Contact form not working - need validate email and submit button sends message
 
 npm start doesnt bring to about me page anymore
 deploy doesn't work properly
 
+4/26:
+contact form needs work
+about me needs to be homepage
+deploy heroku
 
 new code: 
 Home.js

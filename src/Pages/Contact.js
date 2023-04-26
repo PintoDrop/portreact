@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Form from 'react-bootstrap/Form';
 import Button from "react-bootstrap/Button";
+// import Card from "react-bootstrap/Card";
 // import { validateEmail } from "../utils/helper";
 
 function Contact() {
@@ -24,15 +25,18 @@ function Contact() {
         // const handleFormSubmit = (e) => {
 //     e.preventDefault();
 
-//     if (!validateEmail(email)) {
+    // if (!validateEmail(email)) {
 //       setErrorMessage("Please enter a valid email");
 //       return;
-//     }
+    // }
 //   };
 //   setEmail('');
   };
 
   return (
+    
+      // <Card style={{ width: "18rem" }} className="contact">
+      //    <Card.Body>
     <Form className="contactForm" onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
      <Form.Label>Email address</Form.Label>
@@ -57,6 +61,9 @@ function Contact() {
         Submit
       </Button>
     </Form>
+    //  </Card.Body>
+    //   </Card>
+    
   );
 }
 
