@@ -89,7 +89,7 @@ GIVEN a single-page application portfolio for a web developer
 <!-- 
 
 how to fix nav bar- done
-how to sized images
+how to sized images - done
 
 how to make footer appear correctly - done (needs style)
 

@@ -1,7 +1,8 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 
 function Footer() {
-  const icons = [
+  const social = [
     {
       name: "Github",
       link: "https://github.com/PintoDrop",
@@ -19,14 +20,19 @@ function Footer() {
 
   return (
     <footer className="text-center ">
- 
       {/* add css to fix up */}
-      {icons.map((icon) => (
-        <a className="link-item" href={icon.link} key={icon.name} target="_blank">
-          <i className={icon.name}>{icon.name}</i>
+      {social.map((social) => (
+        <a
+          className="link-item"
+          href={social.link}
+          key={social.name}
+          target="_blank"
+        >
+          <Button className="link-button" variant="danger">
+            <i className={social.name}>{social.name}</i>
+          </Button>
         </a>
       ))}
-      
     </footer>
   );
 }

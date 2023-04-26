@@ -61,6 +61,7 @@ img {
 .selfie {
   width: 400px;
   height: 450px;
+  float:center;
 }
 
 /* .self {
@@ -78,7 +79,31 @@ Header {
 .aboutme {
   background-color: #23f0c7;
   color: #ef767a;
-  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin:auto;
+  width: 100%
+  
+}
+
+.aboutmecard {
+  background-color: #23f0c7;
+  color: #ef767a;
+  font-size: 18px;
+  text-align: center;
+  margin:auto;
+  float:right;
+  width: 100%
+}
+
+.aboutmecard2 {
+  background-color: #23f0c7;
+  color: #6457A6;
+  font-size: 18px;
+  text-align: center;
+  margin:auto;
+  float:left;
+  width: 100%
 }
 
 .contact {
@@ -111,6 +136,10 @@ Header {
   font-weight: 200
 }
 
+.link-button {
+  color: #6457A6
+}
+
 footer {
   background-color: #23f0c7;
 }
@@ -121,6 +150,10 @@ footer {
 
 h2 {
   color: #6457a6;
+}
+
+.card1 {
+  color: #ef767a;
 }
 
 .Navigation {
