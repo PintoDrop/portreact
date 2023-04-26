@@ -46,9 +46,10 @@ function Aboutme() {
           </Card.Body>
         </Card>
         {/* ))} */}
+
         <img
           className="selfie"
-          src="./images/image.pro.jpg"
+          src={require("../images/image.pro.jpg")}
           alt="Michael Selfie"
         ></img>
         {/* {props.children} */}

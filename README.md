@@ -97,5 +97,8 @@ getting rows of 3 for cards that are in columns
 
 Contact form not working
 after deployed my images stopped working for local
+npm start doesnt bring to about me page anymore
 deploy doesn't work properly
+
+setting homepage as about me?
  -->

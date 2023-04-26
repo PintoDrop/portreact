@@ -58,7 +58,8 @@ function Project() {
       link: "https://pintodrop.github.io/Challenge-3/",
       github: "https://github.com/PintoDrop/Challenge-3",
 
-      image: "./images/passwordGen.JPG",
+      image: "../images/passwordGen.JPG",
+      // src={require("../images/image.pro.jpg")}
     },
   ]);
 
