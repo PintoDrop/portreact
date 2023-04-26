@@ -107,6 +107,7 @@ deploy doesn't work properly
 contact form needs work
 about me needs to be homepage
 deploy heroku
+current page highlighted in nav bar? - GOOD
 
 new code: 
 Home.js
