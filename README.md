@@ -17,6 +17,8 @@
 
 For this assignment I was tasked with creating a professional portfolio for myself. Differing from the first assignment, I will be creating this one using concepts with react. This application will allow a user to load the page and gain information about myself. The user will be able to see some projects I have created, a little about me, and able to contact me with any questions. The user will also be able to download my resume and view some of my social media links.
 
+Due to an issue with react-router-dom and github pages, I deployed my application with Heroku.
+
 ## Usage
 
 The user will be able to view the page and see information about myself and the projects I've worked on during this course. The user will be able to see pictures of my projects and links to the application and the repo to view the code.
@@ -49,7 +51,7 @@ GIVEN a single-page application portfolio for a web developer
 **WHEN I click on a navigation title**
 *THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted*
 
-<!-- Need? npm start goes to /portreact -->
+
 **WHEN I load the portfolio the first time**
 *THEN the About Me title and section are selected by default* 
 
@@ -62,11 +64,9 @@ GIVEN a single-page application portfolio for a web developer
 **WHEN I am presented with the Contact section**
 *THEN I see a contact form with fields for a name, an email address, and a message*
 
-<!-- Need -->
 **WHEN I move my cursor out of one of the form fields without entering text**
 *THEN I receive a notification that this field is required*
 
-<!-- Need -->
 **WHEN I enter text into the email address field**
 *THEN I receive a notification if I have entered an invalid email address*
 
@@ -94,14 +94,9 @@ GIVEN a single-page application portfolio for a web developer
 
 ![Contact Page](./src/images/contactimg.JPG)
 
+![Contact error Page](./src/images/contactErr.JPG)
 
-<!-- 
+![Contact email error Page](./src/images/contactErrEmail.JPG)
 
-4/26:
-contact form needs work
+![Contact email error 2 Page](./src/images/contactErrEmail2.JPG)
 
-about me needs to be homepage - issue started after trying to deploy on github and now npm start brings me to /portreact that
-just shows header, nav and footer
-
-deploy heroku -done
- -->
