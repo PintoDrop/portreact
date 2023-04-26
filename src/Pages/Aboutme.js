@@ -3,8 +3,11 @@ import Card from "react-bootstrap/Card";
 // import self from "../../src/images/image.pro.jpg"
 
 
+
 function Aboutme() {
   return (
+ 
+    
     <section className="card aboutme">
       <card className="text-center ">
         <h2>About Me</h2>
@@ -51,10 +54,11 @@ function Aboutme() {
           className="selfie"
           src={require("../images/image.pro.jpg")}
           alt="Michael Selfie"
-        ></img>
+          ></img>
         {/* {props.children} */}
       </card>
     </section>
+        
   );
 }
 

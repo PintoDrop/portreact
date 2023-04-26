@@ -99,9 +99,11 @@ GIVEN a single-page application portfolio for a web developer
 
 4/26:
 contact form needs work
-about me needs to be homepage
+
+about me needs to be homepage - issue started after trying to deploy on github and now npm start brings me to /portreact that
+just shows header, nav and footer
+
 deploy heroku
-current page highlighted in nav bar? - GOOD
 
 new code: 
 Home.js
