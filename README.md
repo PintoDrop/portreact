@@ -88,12 +88,8 @@ GIVEN a single-page application portfolio for a web developer
 
 <!-- 
 
-how to fix nav bar- done
-how to sized images - done
-
-how to make footer appear correctly - done (needs style)
-
-how can I make my projects appear? - not loading 
+making images on project cards different sizes
+getting rows of 3 for cards that are in columns
 
 link for resume? resume info
 what's wrong with my contact form?
