@@ -10,13 +10,26 @@ function Resume() {
       <Card style={{ width: "18rem" }} className="resume">
         {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
         <Card.Body>
-          <Card.Title>Skills & Languages</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content. 
+          <Card.Title><h2>Proficiencies</h2></Card.Title>
+          <Card.Text className="resume1">
+            {/* <ul> */}
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>MongoDB</li>
+            <li>Bootstrap</li>
+            <li>Handle Bars</li>
+            <li>React</li>
+            <li>APIs</li>
+            <li>MySQL</li>
+            <li>jQuery</li>
+
+            {/* </ul> */}
           </Card.Text>
           <a href="https://my.indeed.com/p/michaelb-140gjwd">
-            <Button variant="primary">Download my resume</Button>
+            <Button variant="info" className="resumeBtn">
+              Download my resume
+            </Button>
           </a>
         </Card.Body>
       </Card>
@@ -25,6 +38,4 @@ function Resume() {
 }
 
 export default Resume;
-
-
 
