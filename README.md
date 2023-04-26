@@ -96,17 +96,19 @@ making images on project cards different sizes
 getting rows of 3 for cards that are in columns
 
 Contact form not working
-after deployed my images stopped working for local
+after deployed my images stopped working for local - fixed paths
+
 npm start doesnt bring to about me page anymore
 deploy doesn't work properly
 
-setting homepage as about me?
-nav bar, header and footer not showing up
 
 new code: 
 Home.js
 Content.js
 function and return code in app.js
+
+setting homepage as about me?
+nav bar, header and footer not showing up
 
 deploy with heroku instead?
  -->
