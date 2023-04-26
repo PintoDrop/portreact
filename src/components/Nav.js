@@ -9,7 +9,7 @@ function Navigation(props) {
   return (
     <>
       <Navbar key="sm" bg="light" expand="sm" className="mb-3">
-        <Container fluid>
+        <Container fluid >
           <Navbar.Brand className="NaviName" href="/">Michael Bender's Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-$"sm"`} />
           <Navbar.Offcanvas
