@@ -15,15 +15,15 @@
 
 ## Description
 
-For this assignment I was tasked with creating a professional portfolio for myself. Differing from the first assignment, I will be creating this one using concepts with react. This application will allow a user to load the page and gain information about myself. The user will be able to see some projects I have created, a little about me, and able to contact me with any questions.
+For this assignment I was tasked with creating a professional portfolio for myself. Differing from the first assignment, I will be creating this one using concepts with react. This application will allow a user to load the page and gain information about myself. The user will be able to see some projects I have created, a little about me, and able to contact me with any questions. The user will also be able to download my resume and view some of my social media links.
 
 ## Usage
 
-The user will be able to view the page and see information about myself and the projects I've worked on during this course.
+The user will be able to view the page and see information about myself and the projects I've worked on during this course. The user will be able to see pictures of my projects and links to the application and the repo to view the code.
 
 ## Installation
 
-You will need to run npm install after cloning the repo to aquire the react packages.
+You will need to run npm install after cloning the repo to aquire the react packages. This will install the react npms and bootstrap.
 
 ## License
 
