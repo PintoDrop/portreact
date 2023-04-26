@@ -25,8 +25,8 @@ function Contact() {
   };
 
   const validateEmail = (email) => {
-    const re = /\S+@\S+\.\S+/;
-    return re.test(email);
+    const mail = /\S+@\S+\.\S+/;
+    return mail.test(email);
   };
 
   return (
@@ -34,7 +34,7 @@ function Contact() {
       {isSubmitted ? (
         <h2>
           I appreciate you reaching out to me, I will respond when I have a
-          chance! Have a good day!{" "}
+          chance! Have a good day!
         </h2>
       ) : (
         <Form onSubmit={handleSubmit}>
