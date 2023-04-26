@@ -49,8 +49,9 @@ GIVEN a single-page application portfolio for a web developer
 **WHEN I click on a navigation title**
 *THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted*
 
+<!-- Need -->
 **WHEN I load the portfolio the first time**
-*THEN the About Me title and section are selected by default*
+*THEN the About Me title and section are selected by default* 
 
 **WHEN I am presented with the About Me section**
 *THEN I see a recent photo or avatar of the developer and a short bio about them*
@@ -61,9 +62,11 @@ GIVEN a single-page application portfolio for a web developer
 **WHEN I am presented with the Contact section**
 *THEN I see a contact form with fields for a name, an email address, and a message*
 
+<!-- Need -->
 **WHEN I move my cursor out of one of the form fields without entering text**
 *THEN I receive a notification that this field is required*
 
+<!-- Need -->
 **WHEN I enter text into the email address field**
 *THEN I receive a notification if I have entered an invalid email address*
 
@@ -94,15 +97,6 @@ GIVEN a single-page application portfolio for a web developer
 
 <!-- 
 
-after deployed my images stopped working for local - fixed paths
-making images on project cards different sizes
-getting rows of 3 for cards that are in columns
-
-Contact form not working - need validate email and submit button sends message
-
-npm start doesnt bring to about me page anymore
-deploy doesn't work properly
-
 4/26:
 contact form needs work
 about me needs to be homepage
@@ -114,8 +108,4 @@ Home.js
 Content.js
 function and return code in app.js
 
-setting homepage as about me?
-nav bar, header and footer not showing up
-
-deploy with heroku instead?
  -->
