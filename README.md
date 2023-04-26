@@ -101,4 +101,12 @@ npm start doesnt bring to about me page anymore
 deploy doesn't work properly
 
 setting homepage as about me?
+nav bar, header and footer not showing up
+
+new code: 
+Home.js
+Content.js
+function and return code in app.js
+
+deploy with heroku instead?
  -->

@@ -11,7 +11,7 @@ function Project() {
       link: "https://pintodrop.github.io/weather-/",
       github: "https://github.com/PintoDrop/weather-",
 
-      image: "./images/weathertrack.JPG",
+      image: require("../images/weathertrack.JPG"),
       // {props.children}
     },
     {
@@ -21,7 +21,7 @@ function Project() {
       link: "https://agile-ocean-74686.herokuapp.com/",
       github: "https://github.com/PintoDrop/autoselfhelp",
 
-      image: "./images/autoselfhelp.JPG",
+      image: require("../images/autoselfhelp.JPG"),
     },
     {
       name: "Coding Quiz",
@@ -30,7 +30,7 @@ function Project() {
       link: "https://pintodrop.github.io/codequiz/",
       github: "https://github.com/PintoDrop/codequiz",
 
-      image: "./images/codequiz.JPG",
+      image: require("../images/codequiz.JPG"),
     },
     {
       name: "JATE",
@@ -39,7 +39,7 @@ function Project() {
       link: "https://hidden-hamlet-64843.herokuapp.com/",
       github: "https://github.com/PintoDrop/textedit",
 
-      image: "./images/jate.JPG",
+      image: require("../images/jate.JPG"),
     },
     {
       name: "Hotels On Demand",
@@ -48,7 +48,7 @@ function Project() {
       link: "https://thandyn.github.io/Hotels-on-Demand/",
       github: "https://github.com/thandyn/Hotels-on-Demand",
 
-      image: "./images/hotelsondemand.JPG",
+      image: require("../images/hotelsondemand.JPG"),
     },
 
     {
@@ -58,7 +58,7 @@ function Project() {
       link: "https://pintodrop.github.io/Challenge-3/",
       github: "https://github.com/PintoDrop/Challenge-3",
 
-      image: "../images/passwordGen.JPG",
+      image: require("../images/passwordGen.JPG"),
       // src={require("../images/image.pro.jpg")}
     },
   ]);

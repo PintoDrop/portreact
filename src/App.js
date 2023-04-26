@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
@@ -10,7 +10,41 @@ import Contact from "./Pages/Contact";
 import Resume from "./Pages/Resume";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import Home from "./components/Home";
+
 function App() {
+  // const [pages] = useState([
+  //   {
+  //     name: "about me",
+  //   },
+  //   { name: "portfolio" },
+  //   { name: "contact" },
+  //   {
+  //     name: "resume",
+  //   },
+  // ]);
+
+  // const [currentPage, setCurrentPage] = useState(pages[0]);
+
+  // return (
+//     <div>
+//       <Header>
+//         <Nav
+//           pages={pages}
+//           setCurrentPage={setCurrentPage}
+//           currentPage={currentPage}
+//         ></Nav>
+//       </Header>
+//       <main>
+//         <Home currentPage={currentPage}></Home>
+//       </main>
+//       <Footer />
+//     </div>
+//   );
+// }
+
+
+
 
   return (
     <div>
