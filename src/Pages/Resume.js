@@ -7,8 +7,9 @@ function Resume() {
   return (
     <div className="cards resume flex col-auto mb-3 ">
       <Card style={{ width: "18rem" }} className="resume">
+        <h2>Resume</h2>
         <Card.Body>
-          <Card.Title><h2>Proficiencies</h2></Card.Title>
+          <Card.Title><h3>Proficiencies</h3></Card.Title>
           <Card.Text className="resume1">
             {/* <ul> */}
             <li>HTML</li>

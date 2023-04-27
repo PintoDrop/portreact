@@ -149,6 +149,13 @@ footer {
 
 h2 {
   color: #6457a6;
+  text-align: center;
+}
+
+.aboutMe3 {
+  background-color: #23f0c7;
+  font-size: 21px;
+  font-weight:700;
 }
 
 .card1 {

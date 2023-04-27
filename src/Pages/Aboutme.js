@@ -11,7 +11,7 @@ function Aboutme() {
     <section className="card aboutme">
       <div className="text-center ">
         <h2>About Me</h2>
-        <p>
+        <p className="aboutMe3">
           I began coding in 2022 and have been able to attend a UCI bootcamp
           that allowed me to gain some skills in web development. Thanks to this
           bootcamp I have been able to learn and create several applications. I 

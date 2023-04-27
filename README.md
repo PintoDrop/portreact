@@ -98,5 +98,5 @@ GIVEN a single-page application portfolio for a web developer
 
 ![Contact email error Page](./src/images/contactErrEmail.JPG)
 
-![Contact email error 2 Page](./src/images/contactErrEmail2.JPG)
+![Contact submit Page](./src/images/contactSubmit.JPG)
 

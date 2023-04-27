@@ -31,6 +31,7 @@ function Contact() {
 
   return (
     <div className="contactForm">
+      <h2>Contact Me</h2>
       {isSubmitted ? (
         <h2>
           I appreciate you reaching out to me, I will respond when I have a

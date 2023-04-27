@@ -65,6 +65,7 @@ function Project() {
 
   return (
     <div>
+        <h2>Portfolio</h2>
       <div className="cards project flex col-auto mb-3 ">
         {works.map((work, idx) => (
           <Card className="myWork" style={{ width: "18rem" }}>
