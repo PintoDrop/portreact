@@ -167,8 +167,9 @@ h2 {
 .contactForm {
   text-align: center;
   color: #ef767a;
-  font-size: 20px;
+  font-size: 22px;
   background-color: #23f0c7;
+  font-weight: 700;
   /* font-family: "Courier New", Courier, monospace; */
 }
 
